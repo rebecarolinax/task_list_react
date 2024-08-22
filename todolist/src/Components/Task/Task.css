@@ -1,0 +1,42 @@
+.taskHeight {
+    height: 61px;
+    width: 674px;
+    border-radius: 8px;
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.btnTask {
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.colorP {
+    color: white;
+    font-size: 15px;
+}
+
+.checked {
+    color: white;
+    background-color: rgba(68, 0, 226, 0.874);
+    backdrop-filter: blur(20px);
+
+}
+
+.btnTask2 {
+    border: 2px solid white;
+}

@@ -1,0 +1,8 @@
+.btn {
+    background-color: rgba(68, 0, 226, 0.874);
+    backdrop-filter: blur(20px);
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}

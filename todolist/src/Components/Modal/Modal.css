@@ -1,0 +1,44 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(43, 29, 76, 0.5);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    width: 914px;
+    height: 700px;
+    display: flex;
+    padding: 110px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 12px 300px 200px rgba(0, 0, 0, 0.42);
+    gap: 50px;
+}
+
+.intModal {
+    width: 577px;
+    height: 177px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 50px;
+}
+
+.intModal::placeholder {
+    color: white;
+}
+
+.error-border {
+    border-color: red !important;
+    /* Altera a cor da borda para vermelho */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 16px;
+}
